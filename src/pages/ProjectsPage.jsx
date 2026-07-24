@@ -10,10 +10,6 @@ export function ProjectsPage() {
       <section className="page-header page-header--narrow" data-aos="fade-up" data-aos-duration="1100">
         <span className="page-header__eyebrow">Sugerencias y reseñas</span>
         <h1>Lo que más buscan nuestros clientes y cómo describen el trabajo con Forge.</h1>
-        <p>
-          En lugar de casos, esta página muestra sugerencias frecuentes y reseñas fake para
-          comunicar mejor el valor del servicio y el tipo de soluciones que entregamos.
-        </p>
       </section>
 
       <section className="content-section content-section--compact">
@@ -41,7 +37,7 @@ export function ProjectsPage() {
         <SectionHeading
           eyebrow="Reseñas"
           title="Opiniones de clientes"
-          description="Testimonios fake listos para mostrar confianza, resultados y la percepción de valor sobre el servicio."
+          // description="Testimonios fake listos para mostrar confianza, resultados y la percepción de valor sobre el servicio."
           data-aos="fade-up"
           data-aos-duration="1100"
         />
