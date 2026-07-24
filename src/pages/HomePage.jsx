@@ -19,14 +19,14 @@ export function HomePage() {
             Forge Solutions
           </span>
           <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1050">
-            Software y soluciones
-            <span> digitales a medida</span>
+            Software para comercios,
+            <span> webs y sistemas de gestión</span>
           </h1>
 
           <div className="hero__note" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1150">
             <p>
-              Desarrollamos webs, sistemas de gestión y automatizaciones para negocios que
-              necesitan una presencia premium y una operación más clara.
+              Desarrollamos páginas web, sistemas de gestión, automatizaciones e interfaces a
+              medida para negocios que quieren vender mejor y ordenar su operación.
             </p>
           </div>
 
@@ -40,9 +40,9 @@ export function HomePage() {
           </div>
 
           <div className="hero__meta" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1250">
-            <span>WEB DEVELOPMENT</span>
-            <span>AI SOLUTIONS</span>
-            <span>PROCESS AUTOMATION</span>
+            <span>WEBS COMERCIALES</span>
+            <span>SISTEMAS DE GESTIÓN</span>
+            <span>AUTOMATIZACIÓN E IA</span>
           </div>
         </div>
       </section>
@@ -51,15 +51,14 @@ export function HomePage() {
         <div className="intro-grid">
           <SectionHeading
             eyebrow="Sobre Forge"
-            title="Ingeniería digital para el negocio real."
-            description="Diseñamos experiencias sobrias, sistemas útiles y una narrativa visual alineada a una marca de tecnología premium."
+            title="Desarrollo real para operaciones reales."
+            description="Creamos soluciones digitales que ayudan a vender, organizar información, automatizar tareas y profesionalizar la presencia online."
             data-aos="fade-up"
             data-aos-duration="1100"
           />
           <p className="intro-grid__text" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1150">
-            La referencia que compartiste tiene un lenguaje visual directo: fondo oscuro, mucho
-            aire, tipografía fuerte y pocas decisiones visuales pero bien ejecutadas. Reorienté la
-            web completa hacia ese criterio.
+            Trabajamos con comercios, marcas y equipos que necesitan una web clara, un sistema
+            útil o una automatización que les ahorre tiempo y mejore el seguimiento del negocio.
           </p>
         </div>
       </section>
@@ -78,9 +77,9 @@ export function HomePage() {
 
       <section className="content-section showcase-band">
         <SectionHeading
-          eyebrow="Case studies"
-          title="Proyectos Seleccionados"
-          description="Assets visuales, composición más editorial y una grilla inspirada en la referencia para mostrar productos y marca."
+          eyebrow="Software que hacemos"
+          title="Tipos de soluciones que desarrollamos"
+          description="Desde sistemas administrativos hasta CRMs y dashboards operativos, cada solución se adapta al flujo real del negocio."
           data-aos="fade-up"
           data-aos-duration="1100"
         />
@@ -96,9 +95,9 @@ export function HomePage() {
             />
           ))}
           <article className="project-callout" data-aos="zoom-in" data-aos-delay="460" data-aos-duration="1300">
-            <span className="project-callout__eyebrow">START A PROJECT</span>
-            <h3>Listo para sumar tus casos reales, capturas o videos.</h3>
-            <p>La base ya está preparada para reemplazar estos placeholders por trabajos reales.</p>
+            <span className="project-callout__eyebrow">SOFTWARE A MEDIDA</span>
+            <h3>Armamos la herramienta según tu proceso, no al revés.</h3>
+            <p>Podemos desarrollar el sistema completo o empezar por un módulo puntual para tu operación.</p>
             <Link className="button button--dark" to="/contacto">
               Solicitar propuesta
             </Link>
@@ -109,8 +108,8 @@ export function HomePage() {
       <section className="content-section impact-panel">
         <SectionHeading
           eyebrow="Impacto"
-          title="Transformamos tu negocio con tecnología simple de usar."
-          description="La estética cambia, pero la idea sigue siendo la misma: claridad visual, estructura y foco comercial."
+          title="Soluciones pensadas para ventas, control y seguimiento."
+          description="Buscamos que cada herramienta sea clara de usar, visualmente sólida y útil para el día a día del negocio."
           align="center"
           data-aos="fade-up"
           data-aos-duration="1100"

@@ -2,25 +2,25 @@ export const services = [
   {
     id: 'web',
     number: '01',
-    title: 'Web Development',
+    title: 'Páginas web para negocios',
     description:
-      'Landing pages y sitios institucionales con una presencia sobria, foco comercial y una estructura técnica limpia.',
-    bullets: ['React + arquitectura escalable', 'Performance responsive', 'Copy y jerarquía visual clara'],
+      'Diseñamos webs institucionales, landings y sitios comerciales pensados para mostrar la marca, explicar el servicio y generar consultas.',
+    bullets: ['Sitios responsive', 'Enfoque comercial', 'Diseño claro y profesional'],
   },
   {
     id: 'ai',
     number: '02',
-    title: 'AI Solutions',
+    title: 'Automatización e IA',
     description:
-      'Incorporamos automatización e inteligencia aplicada a procesos internos para reducir tareas manuales y ganar velocidad.',
-    bullets: ['Asistentes internos', 'Flujos automáticos', 'Integraciones con herramientas existentes'],
+      'Implementamos automatizaciones, asistentes y flujos con inteligencia artificial para ahorrar tiempo y ordenar tareas repetitivas.',
+    bullets: ['Asistentes internos', 'Respuestas automáticas', 'Integraciones con herramientas existentes'],
   },
   {
     id: 'automation',
     number: '03',
-    title: 'Process Automation',
+    title: 'Sistemas de gestión',
     description:
-      'Desarrollamos sistemas de gestión y operaciones para ordenar ventas, stock, clientes y seguimiento comercial.',
+      'Creamos software a medida para controlar ventas, stock, clientes, turnos, métricas y operaciones desde un solo lugar.',
     bullets: ['Paneles operativos', 'Permisos por rol', 'Procesos centralizados'],
   },
 ]
@@ -33,34 +33,34 @@ export const metrics = [
 
 export const projects = [
   {
-    title: 'Commerce System',
-    category: 'Sistema comercial',
+    title: 'Sistema de gestión para comercios',
+    category: 'Ventas, stock y caja',
     summary:
-      'Panel centralizado para ventas, stock y control operativo con una interfaz limpia y preparada para crecer.',
+      'Software para administrar productos, ventas, caja, clientes y control operativo diario desde un panel centralizado.',
     image: '/forge-hero-software.png',
     size: 'wide',
   },
   {
-    title: 'Pocket Admin',
-    category: 'Operación móvil',
+    title: 'Dashboard móvil de métricas',
+    category: 'KPIs y seguimiento remoto',
     summary:
-      'Vista compacta para seguimiento de KPIs, pedidos y reportes desde una interfaz ligera y directa.',
+      'Vista móvil para dueños y equipos que necesitan revisar indicadores, pedidos, reportes y actividad en tiempo real.',
     image: '/forge-mobile-software.png',
     size: 'tall',
   },
   {
-    title: 'Core Automation',
-    category: 'Automatización',
+    title: 'Automatización de procesos internos',
+    category: 'Tareas repetitivas y flujos',
     summary:
-      'Flujos internos con reglas, disparadores y seguimiento para reducir fricción manual en tareas repetitivas.',
+      'Flujos con reglas, disparadores y seguimiento para automatizar tareas administrativas, operativas y comerciales.',
     image: '/forge-automation-software.png',
     size: 'standard',
   },
   {
-    title: 'Forge Identity',
-    category: 'Brand system',
+    title: 'CRM y seguimiento comercial',
+    category: 'Leads, clientes y cierre',
     summary:
-      'Un sistema visual consistente para comunicar tecnología, orden y posicionamiento premium en digital.',
+      'Herramienta para organizar consultas, clientes, presupuestos, estados de venta y seguimiento comercial en un mismo sistema.',
     image: '/forge-crm-software.png',
     size: 'standard',
   },
@@ -90,6 +90,13 @@ export const contactChannels = [
     external: true,
   },
   {
+    title: 'Correo',
+    value: 'forgesolutionsarg@gmail.com',
+    note: 'Email para consultas, propuestas, material del proyecto y contacto comercial.',
+    href: 'mailto:forgesolutionsarg@gmail.com',
+    external: true,
+  },
+  {
     title: 'Instagram',
     value: '@forgesolutionsarg',
     note: 'Canal activo para consultas, demos y primeras conversaciones.',
@@ -116,6 +123,11 @@ export const socialLinks = [
   {
     label: 'WhatsApp',
     href: 'https://wa.me/5493416218972',
+    external: true,
+  },
+  {
+    label: 'Email',
+    href: 'mailto:forgesolutionsarg@gmail.com',
     external: true,
   },
   {

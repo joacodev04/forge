@@ -6,10 +6,10 @@ export function ContactPage() {
     <div className="page">
       <section className="page-header page-header--narrow" data-aos="fade-up" data-aos-duration="1100">
         <span className="page-header__eyebrow">Contacto</span>
-        <h1>Contacto, redes y una salida clara para convertir visitas en consultas.</h1>
+        <h1>WhatsApp, correo e Instagram para iniciar tu proyecto.</h1>
         <p>
-          Esta página queda lista para que después agreguemos WhatsApp, mail o formulario real.
-          Por ahora la estructura ya tiene presencia visual, jerarquía y canales visibles.
+          Si querés avanzar con una web, un sistema de gestión o una automatización, podés
+          escribirnos por WhatsApp, Instagram o al correo forgesolutionsarg@gmail.com.
         </p>
       </section>
 
@@ -33,8 +33,8 @@ export function ContactPage() {
 
       <section className="cta-banner cta-banner--stacked" data-aos="zoom-in" data-aos-duration="1250">
         <div>
-          <span className="cta-banner__eyebrow">Redes</span>
-          <h2>Una salida corta, clara y visible para que el usuario sepa donde escribir.</h2>
+          <span className="cta-banner__eyebrow">Canales</span>
+          <h2>Elegí el canal que te resulte más cómodo y contanos qué tipo de software necesitás.</h2>
         </div>
         <div className="cta-banner__links">
           {socialLinks.map((item) => (

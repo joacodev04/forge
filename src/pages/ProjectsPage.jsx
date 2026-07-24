@@ -8,10 +8,10 @@ export function ProjectsPage() {
     <div className="page">
       <section className="page-header page-header--narrow" data-aos="fade-up" data-aos-duration="1100">
         <span className="page-header__eyebrow">Proyectos</span>
-        <h1>Una grilla pensada para mostrar producto, posicionamiento y criterio visual.</h1>
+        <h1>Software que desarrollamos para comercios, equipos y operaciones.</h1>
         <p>
-          Esta sección ya refleja mejor la referencia: imágenes con peso, bloques negros,
-          contraste alto y una composición más cercana a una landing de estudio digital.
+          Estos ejemplos muestran distintos tipos de soluciones que podemos desarrollar:
+          sistemas administrativos, dashboards, automatizaciones y CRMs comerciales.
         </p>
       </section>
 
@@ -31,17 +31,17 @@ export function ProjectsPage() {
           data-aos-delay="460"
           data-aos-duration="1300"
         >
-          <span className="project-callout__eyebrow">FORGE SYSTEM</span>
-          <h3>El siguiente paso es cargar casos reales y tu material definitivo.</h3>
-          <p>También podemos sumar carrusel, video reel, animaciones y capturas reales.</p>
+          <span className="project-callout__eyebrow">SOLUCIÓN A MEDIDA</span>
+          <h3>También armamos módulos específicos según el flujo de cada negocio.</h3>
+          <p>Turnos, stock, ventas, clientes, métricas, reportes y automatizaciones en un solo ecosistema.</p>
         </article>
       </section>
 
       <section className="content-section content-section--compact">
         <SectionHeading
           eyebrow="Escalabilidad"
-          title="La arquitectura sigue modular, aunque la interfaz ahora sea más premium."
-          description="Las páginas siguen separadas por componentes y rutas, para que continuar el proyecto después sea rápido."
+          title="Cada sistema puede crecer por etapas, sin rehacer todo desde cero."
+          description="Podemos empezar con una web o un módulo puntual y después sumar paneles, procesos y nuevas áreas del negocio."
           align="center"
           data-aos="fade-up"
           data-aos-duration="1100"

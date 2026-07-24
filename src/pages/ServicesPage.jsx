@@ -8,10 +8,10 @@ export function ServicesPage() {
     <div className="page">
       <section className="page-header page-header--narrow" data-aos="fade-up" data-aos-duration="1100">
         <span className="page-header__eyebrow">Servicios</span>
-        <h1>Soluciones digitales para vender mejor, operar mejor y comunicar mejor.</h1>
+        <h1>Webs, sistemas de gestión, automatizaciones e IA para negocios en crecimiento.</h1>
         <p>
-          Forge Solutions combina desarrollo web, software a medida y automatización con una capa
-          visual cuidada para que la marca y el producto hablen el mismo idioma.
+          En Forge Solutions desarrollamos herramientas concretas: páginas web, sistemas para
+          operar mejor, automatizaciones internas y software a medida para comercios y equipos.
         </p>
       </section>
 
@@ -30,8 +30,8 @@ export function ServicesPage() {
       <section className="content-section content-section--split">
         <SectionHeading
           eyebrow="Proceso"
-          title="Un flujo simple para construir algo serio."
-          description="Cada proyecto parte de un diagnóstico comercial y termina en una interfaz mantenible, clara y preparada para crecer."
+          title="Un proceso claro para construir software útil."
+          description="Cada proyecto parte de una necesidad real y termina en una herramienta clara, mantenible y lista para escalar."
           data-aos="fade-right"
           data-aos-duration="1150"
         />
@@ -58,7 +58,7 @@ export function ServicesPage() {
       <section className="cta-banner" data-aos="zoom-in" data-aos-duration="1250">
         <div>
           <span className="cta-banner__eyebrow">Forge Solutions</span>
-          <h2>Si tu operación ya es compleja, la solución no puede sentirse improvisada.</h2>
+          <h2>Si tu negocio depende de planillas, mensajes sueltos o procesos manuales, lo ordenamos con software.</h2>
         </div>
         <Link className="button button--primary" to="/contacto">
           Solicitar propuesta
