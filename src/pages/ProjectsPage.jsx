@@ -1,47 +1,68 @@
 import { Link } from 'react-router-dom'
-import { ProjectCard } from '../components/ProjectCard'
+import { ReviewCard } from '../components/ReviewCard'
 import { SectionHeading } from '../components/SectionHeading'
-import { projects } from '../data/siteContent'
+import { SuggestionCard } from '../components/SuggestionCard'
+import { clientReviews, clientSuggestions } from '../data/siteContent'
 
 export function ProjectsPage() {
   return (
     <div className="page">
       <section className="page-header page-header--narrow" data-aos="fade-up" data-aos-duration="1100">
-        <span className="page-header__eyebrow">Proyectos</span>
-        <h1>Software que desarrollamos para comercios, equipos y operaciones.</h1>
+        <span className="page-header__eyebrow">Sugerencias y reseñas</span>
+        <h1>Lo que más buscan nuestros clientes y cómo describen el trabajo con Forge.</h1>
         <p>
-          Estos ejemplos muestran distintos tipos de soluciones que podemos desarrollar:
-          sistemas administrativos, dashboards, automatizaciones y CRMs comerciales.
+          En lugar de casos, esta página muestra sugerencias frecuentes y reseñas fake para
+          comunicar mejor el valor del servicio y el tipo de soluciones que entregamos.
         </p>
-      </section>
-
-      <section className="projects-grid projects-grid--editorial">
-        {projects.map((project, index) => (
-          <ProjectCard
-            key={project.title}
-            {...project}
-            data-aos={index % 2 === 0 ? 'fade-up' : 'zoom-in'}
-            data-aos-delay={120 + index * 120}
-            data-aos-duration={1200 + index * 50}
-          />
-        ))}
-        <article
-          className="project-callout project-callout--alt"
-          data-aos="zoom-in"
-          data-aos-delay="460"
-          data-aos-duration="1300"
-        >
-          <span className="project-callout__eyebrow">SOLUCIÓN A MEDIDA</span>
-          <h3>También armamos módulos específicos según el flujo de cada negocio.</h3>
-          <p>Turnos, stock, ventas, clientes, métricas, reportes y automatizaciones en un solo ecosistema.</p>
-        </article>
       </section>
 
       <section className="content-section content-section--compact">
         <SectionHeading
-          eyebrow="Escalabilidad"
-          title="Cada sistema puede crecer por etapas, sin rehacer todo desde cero."
-          description="Podemos empezar con una web o un módulo puntual y después sumar paneles, procesos y nuevas áreas del negocio."
+          eyebrow="Sugerencias"
+          title="Pedidos y necesidades que más se repiten"
+          description="Estas son algunas de las soluciones que más nos consultan comercios, marcas y equipos que quieren profesionalizar su operación."
+          data-aos="fade-up"
+          data-aos-duration="1100"
+        />
+        <div className="suggestions-grid">
+          {clientSuggestions.map((item, index) => (
+            <SuggestionCard
+              key={item.title}
+              {...item}
+              data-aos="fade-up"
+              data-aos-delay={120 + index * 120}
+              data-aos-duration={1100 + index * 50}
+            />
+          ))}
+        </div>
+      </section>
+
+      <section className="content-section">
+        <SectionHeading
+          eyebrow="Reseñas"
+          title="Opiniones de clientes"
+          description="Testimonios fake listos para mostrar confianza, resultados y la percepción de valor sobre el servicio."
+          data-aos="fade-up"
+          data-aos-duration="1100"
+        />
+        <div className="reviews-grid">
+          {clientReviews.map((review, index) => (
+            <ReviewCard
+              key={review.name}
+              {...review}
+              data-aos={index % 2 === 0 ? 'fade-up' : 'zoom-in'}
+              data-aos-delay={120 + index * 120}
+              data-aos-duration={1150 + index * 50}
+            />
+          ))}
+        </div>
+      </section>
+
+      <section className="content-section content-section--compact">
+        <SectionHeading
+          eyebrow="Siguiente paso"
+          title="Después podemos reemplazar estas reseñas por testimonios reales de clientes."
+          description="La estructura ya queda lista para sumar nombres reales, logos, capturas, métricas o incluso video-testimonios."
           align="center"
           data-aos="fade-up"
           data-aos-duration="1100"

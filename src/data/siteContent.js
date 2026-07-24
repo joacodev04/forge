@@ -31,38 +31,55 @@ export const metrics = [
   { value: 'AR / ES', label: 'cobertura remota e internacional' },
 ]
 
-export const projects = [
+export const clientSuggestions = [
   {
-    title: 'Sistema de gestión para comercios',
-    category: 'Ventas, stock y caja',
+    category: 'Lo que más piden',
+    title: 'Sistema para ventas, stock y caja',
     summary:
-      'Software para administrar productos, ventas, caja, clientes y control operativo diario desde un panel centralizado.',
-    image: '/forge-hero-software.png',
-    size: 'wide',
+      'Ideal para comercios que quieren dejar de depender de planillas sueltas y ordenar toda la operación en un solo panel.',
   },
   {
-    title: 'Dashboard móvil de métricas',
-    category: 'KPIs y seguimiento remoto',
+    category: 'Automatización',
+    title: 'Procesos internos y respuestas automáticas',
     summary:
-      'Vista móvil para dueños y equipos que necesitan revisar indicadores, pedidos, reportes y actividad en tiempo real.',
-    image: '/forge-mobile-software.png',
-    size: 'tall',
+      'Una sugerencia frecuente es automatizar consultas, seguimiento comercial y tareas repetitivas para ganar tiempo.',
   },
   {
-    title: 'Automatización de procesos internos',
-    category: 'Tareas repetitivas y flujos',
+    category: 'Seguimiento',
+    title: 'CRM simple para clientes y presupuestos',
     summary:
-      'Flujos con reglas, disparadores y seguimiento para automatizar tareas administrativas, operativas y comerciales.',
-    image: '/forge-automation-software.png',
-    size: 'standard',
+      'Muchos negocios nos piden una herramienta clara para registrar contactos, estados de venta y próximos pasos.',
+  },
+]
+
+export const clientReviews = [
+  {
+    name: 'Lucía Fernández',
+    business: 'Tienda minorista · Rosario',
+    quote:
+      'Nos ordenaron ventas y stock en una sola herramienta. Hoy trabajamos más rápido y con mucha menos confusión.',
+    rating: '5.0',
   },
   {
-    title: 'CRM y seguimiento comercial',
-    category: 'Leads, clientes y cierre',
-    summary:
-      'Herramienta para organizar consultas, clientes, presupuestos, estados de venta y seguimiento comercial en un mismo sistema.',
-    image: '/forge-crm-software.png',
-    size: 'standard',
+    name: 'Matías Gómez',
+    business: 'Estudio de servicios · Buenos Aires',
+    quote:
+      'La web quedó profesional y clara, pero lo mejor fue el sistema interno que nos permitió hacer seguimiento real de cada cliente.',
+    rating: '5.0',
+  },
+  {
+    name: 'Carla Ruiz',
+    business: 'Comercio online · Córdoba',
+    quote:
+      'Pasamos de resolver todo por WhatsApp y Excel a tener procesos mucho más prolijos. Se notó enseguida en la operación.',
+    rating: '4.9',
+  },
+  {
+    name: 'Nicolás Peralta',
+    business: 'Distribuidora · Santa Fe',
+    quote:
+      'Lo que más valoramos fue que entendieron cómo trabajamos y armaron el software alrededor de eso, no al revés.',
+    rating: '5.0',
   },
 ]
 

@@ -1,10 +1,17 @@
 import { Link } from 'react-router-dom'
 import { AppLink } from '../components/AppLink'
 import { MetricCard } from '../components/MetricCard'
-import { ProjectCard } from '../components/ProjectCard'
+import { ReviewCard } from '../components/ReviewCard'
 import { SectionHeading } from '../components/SectionHeading'
 import { ServiceCard } from '../components/ServiceCard'
-import { contactChannels, metrics, projects, services } from '../data/siteContent'
+import { SuggestionCard } from '../components/SuggestionCard'
+import {
+  clientReviews,
+  clientSuggestions,
+  contactChannels,
+  metrics,
+  services,
+} from '../data/siteContent'
 
 export function HomePage() {
   return (
@@ -32,7 +39,7 @@ export function HomePage() {
 
           <div className="hero__actions hero__actions--centered" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1200">
             <Link className="button button--primary" to="/proyectos">
-              Ver Proyectos
+              Ver Reseñas
             </Link>
             <Link className="button button--ghost" to="/contacto">
               Contáctanos
@@ -77,29 +84,41 @@ export function HomePage() {
 
       <section className="content-section showcase-band">
         <SectionHeading
-          eyebrow="Software que hacemos"
-          title="Tipos de soluciones que desarrollamos"
-          description="Desde sistemas administrativos hasta CRMs y dashboards operativos, cada solución se adapta al flujo real del negocio."
+          eyebrow="Sugerencias y reseñas"
+          title="Lo que más nos piden y cómo nos recomiendan"
+          description="Reemplazamos la sección de casos por sugerencias frecuentes y reseñas de clientes para mostrar mejor el tipo de trabajo que hacemos."
           data-aos="fade-up"
           data-aos-duration="1100"
         />
 
-        <div className="projects-grid projects-grid--editorial">
-          {projects.map((project, index) => (
-            <ProjectCard
-              key={project.title}
-              {...project}
-              data-aos={index % 2 === 0 ? 'fade-up' : 'zoom-in'}
+        <div className="suggestions-grid suggestions-grid--preview">
+          {clientSuggestions.map((item, index) => (
+            <SuggestionCard
+              key={item.title}
+              {...item}
+              data-aos="fade-up"
               data-aos-delay={120 + index * 120}
-              data-aos-duration={1200 + index * 50}
+              data-aos-duration={1100 + index * 50}
             />
           ))}
-          <article className="project-callout" data-aos="zoom-in" data-aos-delay="460" data-aos-duration="1300">
-            <span className="project-callout__eyebrow">SOFTWARE A MEDIDA</span>
-            <h3>Armamos la herramienta según tu proceso, no al revés.</h3>
-            <p>Podemos desarrollar el sistema completo o empezar por un módulo puntual para tu operación.</p>
+        </div>
+
+        <div className="reviews-grid reviews-grid--preview">
+          {clientReviews.slice(0, 3).map((review, index) => (
+            <ReviewCard
+              key={review.name}
+              {...review}
+              data-aos={index % 2 === 0 ? 'fade-up' : 'zoom-in'}
+              data-aos-delay={160 + index * 120}
+              data-aos-duration={1150 + index * 50}
+            />
+          ))}
+          <article className="project-callout" data-aos="zoom-in" data-aos-delay="520" data-aos-duration="1300">
+            <span className="project-callout__eyebrow">OPINIONES</span>
+            <h3>Clientes que valoran claridad, orden y una solución pensada para su negocio.</h3>
+            <p>Podés usar esta sección para mostrar después testimonios reales, capturas o videos breves.</p>
             <Link className="button button--dark" to="/contacto">
-              Solicitar propuesta
+              Quiero mi propuesta
             </Link>
           </article>
         </div>

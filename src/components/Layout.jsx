@@ -5,7 +5,7 @@ import { contactChannels, socialLinks, whatsappContact } from '../data/siteConte
 const navItems = [
   { to: '/', label: 'Home' },
   { to: '/servicios', label: 'Servicios' },
-  { to: '/proyectos', label: 'Casos' },
+  { to: '/proyectos', label: 'Sugerencias' },
   { to: '/contacto', label: 'Contacto' },
 ]
 
