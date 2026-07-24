@@ -86,7 +86,6 @@ export function HomePage() {
         <SectionHeading
           eyebrow="Sugerencias y reseñas"
           title="Lo que más nos piden y cómo nos recomiendan"
-          description="Reemplazamos la sección de casos por sugerencias frecuentes y reseñas de clientes para mostrar mejor el tipo de trabajo que hacemos."
           data-aos="fade-up"
           data-aos-duration="1100"
         />
