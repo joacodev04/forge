@@ -9,7 +9,7 @@ export function ContactPage() {
         <h1>WhatsApp, correo e Instagram para iniciar tu proyecto.</h1>
         <p>
           Si querés avanzar con una web, un sistema de gestión o una automatización, podés
-          escribirnos por WhatsApp, Instagram o al correo forgesolutionsarg@gmail.com.
+          escribirnos por WhatsApp, Instagram o al correo.
         </p>
       </section>
 
