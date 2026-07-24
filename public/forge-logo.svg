@@ -1,0 +1,9 @@
+<svg width="620" height="160" viewBox="0 0 620 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="8" y="8" width="144" height="144" rx="34" fill="#070707" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <path d="M48 42H110V58H65V73H103V88H65V120H48V42Z" fill="white"/>
+  <rect x="104" y="42" width="6" height="6" fill="#6F92FF"/>
+  <path d="M194 66H330V84H194V66Z" fill="white"/>
+  <path d="M194 92H381V112H194V92Z" fill="white"/>
+  <path d="M193 120H301V132H193V120Z" fill="#8B8E96"/>
+  <text x="194" y="57" fill="#8B8E96" font-family="Segoe UI, Arial, sans-serif" font-size="12" letter-spacing="6">FORGE SOLUTIONS</text>
+</svg>
